@@ -96,7 +96,6 @@ const Home = () => {
                 </FormSelect>
               </div>
             </CardHeader>
-            <MapLocation location={showLocations} />
           </Card>
         </Col>
       </Row>
