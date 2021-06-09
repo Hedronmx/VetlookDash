@@ -1,0 +1,81 @@
+@import './variables';
+
+/********************** CLASSES FOR GENERAL PORPUSES *********************/
+.action-icon {
+  width: 1rem;
+}
+
+/********************** CLASSES FOR TABLES VIEW *********************/
+.circle {
+  width: 0.6rem;
+  height: 0.6rem;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.cickable:hover,
+.users-table th:hover,
+.business-table th:hover {
+  cursor: pointer;
+}
+
+.users-table input.form-control,
+.business-table input.form-control {
+  border: 1px solid rgb(10, 10, 56);
+  border-style: groove;
+  border-radius: 1rem;
+  width: 18.5rem;
+  -webkit-box-shadow: 10px 10px 36px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 36px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 36px -15px rgba(0, 0, 0, 0.75);
+}
+/********************** CLASSES FOR USER PROFILE VIEW *********************/
+.user-img,
+.item-img {
+  width: 14rem;
+}
+
+.providerContainer {
+  width: 50%;
+  margin: auto;
+}
+
+.providerIcon {
+  width: 2.3rem;
+  border-radius: 5rem;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: 5%;
+  margin-top: -3rem;
+  background-color: #fff;
+}
+
+.user-info input {
+  vertical-align: middle;
+}
+
+/********************** WIKI CLASSES *********************/
+.wiki-img {
+  height: 100%;
+  margin-left: -2rem;
+}
+
+/********************** RESPONSIVE CLASSES *********************/
+@media screen and (max-width: 999px) {
+  .providerIcon {
+    width: 2rem;
+    margin-top: -2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .user-img {
+    width: 40%;
+  }
+  .providerIcon {
+    margin-right: 10%;
+    width: 2rem;
+  }
+}
